@@ -1,0 +1,150 @@
+body.dark {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+body.dark header {
+    background-color: #212529 !important;
+}
+
+body.dark .card,
+body.dark .modal-content {
+    background-color: #2c2c2c !important;
+    border-color: #cccccc !important;
+    color: #ffffff !important;
+}
+
+body.dark .category-container,
+body.dark .alert {
+    background-color: #2c2c2c !important;
+    border-color: #cccccc !important;
+}
+
+body.dark .alert-info,
+body.dark .card-info,
+body.dark .modal-info,
+body.dark .category {
+    color: #cccccc !important;
+}
+
+body.dark .modal-title,
+body.dark .modal-price {
+    color: #ffffff !important;
+}
+
+body.dark .dettagli {
+    background-color: #212529 !important;
+    border-color: #292929 !important;
+}
+
+body.dark .dettagli:hover {
+    background-color: #1b1e22 !important;
+}
+
+body.dark .btn-close {
+    filter: invert(1) !important;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    transition:
+        background-color 200ms ease-out,
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.alert,
+.dettagli {
+    transition:
+        background-color 200ms ease-out,
+        border-color 200ms ease-out;
+}
+
+.category-container {
+    transition:
+        background-color 100ms ease-out,
+        border-color 100ms ease-out;
+}
+
+.category {
+    cursor: default;
+}
+
+article {
+    animation: fade-in 600ms ease-out;
+}
+
+.card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        box-shadow 200ms ease-out,
+        transform 200ms ease-out,
+        background-color 200ms ease-out,
+        border-color 200ms ease-out,
+        color 200ms ease-out;
+}
+
+#products article:nth-of-type(1) {
+    animation-delay: 60ms;
+}
+
+#products article:nth-of-type(2) {
+    animation-delay: 120ms;
+}
+
+#products article:nth-of-type(3) {
+    animation-delay: 180ms;
+}
+
+#products article:nth-of-type(4) {
+    animation-delay: 240ms;
+}
+
+#products article:nth-of-type(5) {
+    animation-delay: 300ms;
+}
+
+#products article:nth-of-type(6) {
+    animation-delay: 360ms;
+}
+
+#products article:nth-of-type(7) {
+    animation-delay: 420ms;
+}
+
+#products article:nth-of-type(8) {
+    animation-delay: 480ms;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .card-body {
+        padding: 24px;
+    }
+}
