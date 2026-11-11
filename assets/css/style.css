@@ -3,7 +3,8 @@ body.dark {
     color: #ffffff !important;
 }
 
-body.dark header {
+body.dark header,
+body.dark footer {
     background-color: #212529 !important;
 }
 
@@ -57,17 +58,11 @@ body.dark .btn-close {
     }
 }
 
-header {
-    transition:
-        background-color 200ms ease-out,
-}
-
 .nav-link:hover {
     color: #ffffff;
 }
 
-.alert,
-.dettagli {
+.alert {
     transition:
         background-color 200ms ease-out,
         border-color 200ms ease-out;
@@ -95,6 +90,11 @@ article {
         background-color 200ms ease-out,
         border-color 200ms ease-out,
         color 200ms ease-out;
+}
+
+.dettagli {
+    transition:
+        background-color 200ms ease-out,
 }
 
 #products article:nth-of-type(1) {
