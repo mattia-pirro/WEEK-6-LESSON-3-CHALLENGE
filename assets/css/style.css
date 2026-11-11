@@ -68,6 +68,10 @@ body.dark .btn-close {
         border-color 200ms ease-out;
 }
 
+.btn-close:focus {
+    box-shadow: none;
+}
+
 .category-container {
     transition:
         background-color 100ms ease-out,
